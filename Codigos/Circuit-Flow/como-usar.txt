@@ -1,0 +1,155 @@
+# CIRCUIT FLOW
+### Sistema de conexões visuais inteligentes para interfaces web
+
+O **Circuit Flow** é um efeito visual interativo que transforma elementos de uma página em uma espécie de circuito eletrônico conectado.
+
+Ele cria linhas, trilhas, nós e pulsos luminosos que conectam diferentes componentes da interface, proporcionando uma experiência tecnológica, moderna e dinâmica.
+
+O sistema identifica os elementos reais do projeto e constrói conexões visuais entre eles, acompanhando a navegação e a rolagem da página.
+
+---
+
+## 1. Como funciona?
+
+O Circuit Flow analisa a estrutura da página e identifica componentes como:
+
+- Cards e containers.
+- Botões e campos de formulário.
+- Menus e barras de navegação.
+- Títulos e textos.
+- Imagens e vídeos.
+- Seções e outros elementos relevantes.
+
+Após identificar os componentes, o sistema cria conexões visuais entre eles.
+
+Pulsos luminosos percorrem as trilhas, os nós são ativados e determinados componentes recebem pequenos destaques visuais.
+
+O resultado é uma interface que transmite a sensação de um circuito eletrônico em funcionamento.
+
+---
+
+## 2. Principais funcionalidades
+
+### Trilhas eletrônicas
+Criação de linhas que conectam elementos da página, preferencialmente utilizando caminhos geométricos e ângulos de 90°.
+
+### Pulsos de energia
+Pequenos pontos luminosos percorrem as conexões, simulando a circulação de energia pelo circuito.
+
+### Nós interativos
+Pontos de conexão que acendem quando um pulso passa por eles.
+
+### Destaques de componentes
+Elementos conectados podem receber efeitos temporários de iluminação ou destaque.
+
+### Conexões inteligentes
+O sistema identifica elementos relevantes e organiza conexões de acordo com a estrutura visual da página, evitando ligações aleatórias.
+
+### Atualização dinâmica
+As conexões são recalculadas quando necessário, considerando:
+- Rolagem da página.
+- Redimensionamento da janela.
+- Mudanças na estrutura da interface.
+- Elementos adicionados ou removidos dinamicamente.
+
+---
+
+## 3. Adaptação automática de cores
+
+Um dos principais recursos do Circuit Flow é sua capacidade de acompanhar a identidade visual do projeto.
+
+Antes de aplicar os efeitos, o sistema deve analisar as cores existentes na interface, considerando:
+
+- Variáveis CSS (`:root`).
+- Cores primárias e secundárias.
+- Cores de destaque.
+- Gradientes.
+- Botões e componentes.
+- Tema claro ou escuro.
+
+As trilhas, pulsos, nós e efeitos de iluminação devem utilizar cores compatíveis com o design original.
+
+**Importante:** o Circuit Flow não deve impor uma paleta fixa. Cada projeto deve manter sua própria identidade visual.
+
+---
+
+## 4. Tecnologias e implementação
+
+A implementação pode utilizar tecnologias como:
+
+| Tecnologia | Finalidade |
+|---|---|
+| JavaScript | Lógica e gerenciamento do sistema |
+| CSS | Estilização e efeitos visuais |
+| SVG | Desenho das trilhas e conexões |
+| Canvas | Renderização alternativa de efeitos |
+| DOM API | Identificação dos elementos da página |
+| Intersection Observer | Detecção de elementos visíveis |
+| requestAnimationFrame | Controle das animações |
+
+A escolha das tecnologias deve considerar a arquitetura já utilizada pelo projeto.
+
+O Circuit Flow não deve exigir a reconstrução da aplicação nem substituir suas tecnologias existentes.
+
+---
+
+## 5. Personalização
+
+O sistema deve permitir personalizar:
+
+- Quantidade de conexões.
+- Velocidade dos pulsos.
+- Intensidade do brilho.
+- Espessura das trilhas.
+- Tamanho dos nós.
+- Distância entre conexões.
+- Tipos de elementos detectados.
+- Cores manuais ou automáticas.
+- Intensidade geral dos efeitos.
+
+As opções disponíveis dependem da implementação e da versão integrada.
+
+---
+
+## 6. Desempenho e compatibilidade
+
+O Circuit Flow deve ser desenvolvido considerando o desempenho e a compatibilidade com diferentes dispositivos.
+
+Boas práticas:
+
+- Evitar animações desnecessárias.
+- Utilizar `requestAnimationFrame`.
+- Evitar cálculos excessivos durante a rolagem.
+- Reaproveitar elementos SVG quando possível.
+- Evitar listeners duplicados.
+- Adaptar os efeitos para dispositivos móveis.
+- Respeitar `prefers-reduced-motion`.
+- Não bloquear interações ou cliques.
+- Não alterar o funcionamento original dos componentes.
+
+---
+
+## 7. Como integrar em um projeto?
+
+1. Analise a estrutura e as tecnologias utilizadas pelo projeto.
+2. Adicione os arquivos do Circuit Flow.
+3. Integre o sistema sem remover funcionalidades existentes.
+4. Configure a identificação automática dos elementos.
+5. Ative a adaptação automática de cores.
+6. Teste as conexões em diferentes seções.
+7. Verifique o funcionamento em dispositivos móveis.
+8. Ajuste as opções de personalização conforme necessário.
+
+A integração deve preservar o layout, a identidade visual e o funcionamento original do site.
+
+---
+
+## 8. Objetivo do projeto
+
+O objetivo do Circuit Flow é transformar interfaces convencionais em experiências visuais mais dinâmicas, utilizando conexões eletrônicas animadas que acompanham a estrutura real da página.
+
+**Circuit Flow — Conectando elementos. Transmitindo energia.**
+
+---
+
+<sub>Documentação em português brasileiro. As funcionalidades descritas dependem da implementação e da versão utilizada.</sub>
