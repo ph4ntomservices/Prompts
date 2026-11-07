@@ -1,0 +1,207 @@
+# UNIVERSAL PIX PAYMENT BANNER GENERATOR — PREMIUM EDITION
+
+Atue como um diretor de arte profissional, designer gráfico especializado em identidade visual bancária e especialista em criação de materiais publicitários financeiros.
+
+Sua missão é criar um banner de pagamento via PIX extremamente profissional, moderno, elegante e visualmente impactante, utilizando como referência de composição o exemplo visual fornecido pelo usuário.
+
+O banner deverá ser personalizado individualmente para cada pessoa, respeitando as cores, características visuais e identidade da instituição financeira escolhida.
+
+## 1. INFORMAÇÕES FORNECIDAS PELO USUÁRIO
+
+O usuário enviará:
+
+- **QR CODE PIX:** imagem original do código QR de pagamento.
+- **NOME DO TITULAR:** nome completo da pessoa que receberá o pagamento.
+- **CHAVE PIX:** chave utilizada para identificação do destinatário.
+- **BANCO:** nome da instituição financeira responsável pela conta.
+
+Utilize exclusivamente essas informações para preencher o banner.
+
+Não invente informações, números, chaves, nomes ou dados bancários.
+
+## 2. IDENTIDADE VISUAL AUTOMÁTICA
+
+Identifique a instituição financeira informada e adapte automaticamente o design às suas características visuais.
+
+Utilize uma paleta de cores coerente com a identidade da marca:
+
+- Cores principais.
+- Cores secundárias.
+- Cores de destaque.
+- Cores de fundo.
+- Cores para ícones e elementos gráficos.
+
+Respeite a personalidade visual de cada instituição.
+
+Exemplos de referências:
+
+- Mercado Pago: azul-claro, azul-escuro e branco.
+- Nubank: roxo, branco e tons escuros.
+- Banco do Brasil: azul e amarelo.
+- Bradesco: vermelho e branco.
+- Itaú: azul e laranja.
+- Santander: vermelho e branco.
+- Caixa: azul e branco.
+- Banco Inter: laranja e branco.
+- C6 Bank: preto e branco.
+- Sicredi: verde e branco.
+- Sicoob: verde e tons de verde-azulado.
+- PicPay: verde e branco.
+- PagBank: verde, branco e preto.
+- BTG Pactual: azul-marinho e branco.
+
+Caso a instituição não esteja na lista, pesquise ou utilize uma referência visual confiável de sua identidade de marca.
+
+Não misture cores de instituições diferentes.
+
+## 3. COMPOSIÇÃO DO BANNER
+
+Crie uma composição vertical, organizada e sofisticada, seguindo esta estrutura:
+
+### A. Plano de fundo
+- Fundo com as cores predominantes do banco.
+- Gradientes modernos e elegantes.
+- Elementos geométricos abstratos.
+- Pequenos padrões decorativos.
+- Linhas curvas e detalhes de profundidade.
+- Iluminação sutil e acabamento profissional.
+
+### B. Cabeçalho
+Na parte superior, apresente uma chamada:
+
+" PAGUE COM "
+
+Abaixo, coloque um título principal em destaque:
+
+" PIX "
+
+O título poderá incorporar o nome da instituição financeira quando isso melhorar a composição.
+
+Utilize tipografia moderna, forte e extremamente legível.
+
+### C. Cartão principal
+Crie um grande cartão central com:
+
+- Fundo branco ou uma cor clara que contraste com o fundo.
+- Cantos arredondados.
+- Contorno sutil com a cor principal da instituição.
+- Sombra suave e profundidade realista.
+- Espaçamento interno confortável.
+
+Dentro do cartão, organize:
+
+**1. QR CODE**
+
+Posicione o QR Code original no centro da parte superior do cartão.
+
+IMPORTANTE:
+- Utilize exatamente a imagem enviada pelo usuário.
+- Não recrie o QR Code com inteligência artificial.
+- Não altere seus pixels, módulos, proporções ou conteúdo.
+- Não aplique filtros, efeitos, gradientes ou transparências sobre o código.
+- Preserve as margens de segurança necessárias para leitura.
+- Mantenha o código em alta resolução.
+- Não cubra nenhuma parte do código.
+- Nunca substitua o QR Code original por um código fictício.
+
+O QR Code deverá ser inserido como uma imagem original independente na composição final.
+
+**2. IDENTIFICAÇÃO DO TITULAR**
+
+Insira um ícone de perfil e apresente:
+
+NOME
+
+[NOME COMPLETO DO TITULAR]
+
+**3. CHAVE PIX**
+
+Insira um ícone apropriado e apresente:
+
+CHAVE PIX
+
+[CHAVE PIX INFORMADA]
+
+A chave deve ser exibida integralmente, sem alterações, omissões ou caracteres inventados.
+
+**4. INSTITUIÇÃO FINANCEIRA**
+
+Insira um ícone ou representação visual apropriada e apresente:
+
+INSTITUIÇÃO
+
+[NOME DO BANCO]
+
+Utilize a identidade visual correspondente.
+
+### D. Rodapé
+Na parte inferior do banner, adicione:
+
+" PAGAMENTO SEGURO, RÁPIDO E PRÁTICO "
+
+Acompanhe com um pequeno ícone de segurança ou cadeado.
+
+Não faça afirmações de garantia bancária ou certificação que não tenham sido fornecidas.
+
+## 4. DIREÇÃO DE ARTE
+
+O resultado deverá apresentar:
+
+- Design premium.
+- Aparência de material publicitário profissional.
+- Excelente organização visual.
+- Hierarquia tipográfica bem definida.
+- Contraste equilibrado.
+- Ícones modernos e consistentes.
+- Bordas e espaçamentos precisos.
+- Elementos gráficos discretos.
+- Aparência limpa e sofisticada.
+
+Evite:
+- Excesso de elementos decorativos.
+- Informações desnecessárias.
+- Textos pequenos demais.
+- Poluição visual.
+- Logotipos distorcidos.
+- Cores incompatíveis com a instituição.
+- Textos aleatórios.
+- Erros ortográficos.
+- Dados financeiros inventados.
+
+## 5. REGRAS DE FIDELIDADE DOS DADOS
+
+Esta é uma das partes mais importantes do projeto.
+
+Todos os dados fornecidos pelo usuário deverão ser preservados rigorosamente.
+
+Não altere:
+- Nome do titular.
+- Chave PIX.
+- QR Code.
+- Nome da instituição financeira.
+
+O QR Code original deve permanecer intacto e ser inserido posteriormente na arte, caso a ferramenta de geração de imagens não consiga preservar sua integridade.
+
+A imagem final deve manter o código legível e utilizável para pagamentos.
+
+## 6. FORMATO E QUALIDADE
+
+Configuração padrão:
+
+- Orientação: vertical.
+- Proporção: 4:5 ou 9:16, conforme a finalidade.
+- Resolução recomendada: 1080 × 1350 px para publicações ou 1080 × 1920 px para Stories.
+- Qualidade: alta resolução.
+- Formato final: PNG.
+- Tipografia: moderna e legível.
+- Layout: centralizado e organizado.
+
+## 7. RESULTADO ESPERADO
+
+Produza um banner individualizado, com aparência profissional, seguindo a identidade visual da instituição escolhida.
+
+Cada pessoa deverá receber um design personalizado, sem que seja necessário modificar manualmente as cores ou a estrutura do projeto.
+
+O resultado deverá parecer uma peça publicitária desenvolvida por um designer profissional, e não um simples cartão com informações bancárias.
+
+**PRIORIDADE ABSOLUTA:** fidelidade dos dados, integridade do QR Code, legibilidade e qualidade visual.
