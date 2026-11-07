@@ -1,0 +1,197 @@
+# UNIVERSAL CURSOR SWARM — MASTER IMPLEMENTATION PROMPT
+
+Atue como um engenheiro de software especialista em desenvolvimento web, JavaScript, animações avançadas, sistemas de partículas, física computacional e experiências interativas.
+
+Sua missão é IMPLEMENTAR um sistema completo de CURSOR SWARM no projeto atual.
+
+Este prompt é UNIVERSAL e foi desenvolvido para funcionar em agentes de desenvolvimento de inteligência artificial, construtores de sites, IDEs com IA e plataformas de programação.
+
+Exemplos de plataformas compatíveis:
+- Websim AI
+- Lovable
+- Bolt
+- Cursor
+- Replit
+- Windsurf
+- Claude Code
+- Outros agentes de desenvolvimento.
+
+## 1. REGRA PRINCIPAL
+
+Antes de começar, analise o projeto atual e compreenda sua estrutura, tecnologias, funcionalidades, identidade visual e arquitetura.
+
+Adapte toda a implementação às características do projeto encontrado.
+
+NÃO imponha uma tecnologia específica.
+NÃO substitua o framework existente.
+NÃO recrie o projeto do zero.
+NÃO remova funcionalidades existentes.
+NÃO modifique elementos que não sejam necessários para a implementação.
+
+A implementação deve ser integrada diretamente ao projeto atual.
+
+## 2. CURSOR SWARM ENGINE
+
+Implemente um sistema avançado de partículas que acompanha o movimento do cursor, criando um efeito visual de enxame.
+
+O efeito deverá possuir:
+
+- Rastreamento fluido do cursor.
+- Partículas que seguem o ponteiro.
+- Movimento orgânico e natural.
+- Suavização de trajetórias.
+- Rastros dinâmicos.
+- Dispersão de partículas.
+- Diferentes velocidades.
+- Variação de tamanho.
+- Opacidade dinâmica.
+- Desaparecimento gradual.
+- Movimento independente das partículas.
+- Reação à velocidade do cursor.
+
+O comportamento deverá ser visualmente agradável e não prejudicar a utilização do site.
+
+## 3. SISTEMA DE EFEITOS
+
+Disponibilize diferentes estilos de Cursor Swarm:
+
+- Classic Swarm
+- Particle Trail
+- Neon Swarm
+- Magnetic Swarm
+- Gravity Swarm
+- Orbital Swarm
+- Liquid Swarm
+- Connected Particles
+- Elastic Swarm
+- Explosion Swarm
+- Minimal Swarm
+- Dynamic Swarm
+
+Cada estilo deverá possuir características visuais e comportamentos próprios.
+
+## 4. PERSONALIZAÇÃO AVANÇADA
+
+Permita personalizar:
+
+- Cor das partículas.
+- Cores secundárias.
+- Gradientes.
+- Quantidade de partículas.
+- Tamanho.
+- Velocidade.
+- Intensidade.
+- Opacidade.
+- Distância entre partículas.
+- Força de atração.
+- Força de repulsão.
+- Tempo de vida.
+- Intensidade do rastro.
+- Brilho.
+- Desfoque.
+- Suavidade do movimento.
+
+As alterações devem ser visualizadas imediatamente.
+
+## 5. INTERAÇÕES INTELIGENTES
+
+Implemente interações como:
+
+- Explosão de partículas ao clicar.
+- Dispersão ao movimentar rapidamente o cursor.
+- Reação ao passar sobre botões.
+- Reação ao passar sobre links.
+- Atração de partículas.
+- Repulsão de partículas.
+- Mudança temporária de intensidade.
+- Efeitos especiais durante cliques.
+- Transições suaves entre comportamentos.
+
+As interações devem ser configuráveis e não podem interferir nos elementos funcionais do site.
+
+## 6. CONFIGURAÇÕES E CONTROLES
+
+Disponibilize uma maneira de controlar o Cursor Swarm.
+
+Quando apropriado à experiência do projeto, crie um painel de personalização independente, contendo:
+
+- Ativar e desativar efeito.
+- Selecionar estilo.
+- Alterar cores.
+- Ajustar intensidade.
+- Controlar quantidade de partículas.
+- Modificar velocidade.
+- Restaurar configurações.
+- Salvar preferências.
+- Visualizar alterações em tempo real.
+
+O painel deverá ser opcional e não poderá alterar desnecessariamente a interface original do site.
+
+## 7. QUALIDADE VISUAL
+
+O resultado deve possuir acabamento profissional.
+
+Priorize:
+- Movimentos suaves.
+- Física visual convincente.
+- Partículas bem distribuídas.
+- Transições naturais.
+- Efeitos equilibrados.
+- Aparência consistente com o projeto.
+- Ausência de poluição visual.
+
+O sistema deverá respeitar a identidade visual original, adaptando automaticamente suas cores quando isso for apropriado.
+
+## 8. DESEMPENHO E COMPATIBILIDADE
+
+Implemente o sistema da maneira mais eficiente e adequada à tecnologia encontrada no projeto.
+
+Considere:
+
+- Otimização da renderização.
+- Controle da quantidade de partículas.
+- Gerenciamento eficiente de animações.
+- Prevenção de vazamentos de memória.
+- Adaptação à resolução da tela.
+- Suspensão de animações desnecessárias.
+- Compatibilidade com navegadores modernos.
+- Suporte a diferentes tamanhos de tela.
+- Respeito às preferências de movimento reduzido.
+- Comportamento adequado em dispositivos touchscreen.
+
+O efeito não deverá bloquear cliques, seleção de texto, rolagem ou qualquer interação original.
+
+## 9. IMPLEMENTAÇÃO ADAPTATIVA
+
+Você tem liberdade técnica para escolher a melhor abordagem de implementação de acordo com o projeto.
+
+Reutilize tecnologias e dependências existentes sempre que possível.
+
+Se alguma funcionalidade não for compatível com a arquitetura encontrada, adapte-a sem comprometer o restante do sistema.
+
+Não crie dependências desnecessárias.
+
+Não entregue apenas uma representação visual estática: implemente um efeito realmente funcional.
+
+## 10. VERIFICAÇÃO FINAL
+
+Após implementar:
+
+1. Verifique se o efeito aparece corretamente.
+2. Teste os diferentes comportamentos.
+3. Teste a personalização.
+4. Verifique a responsividade.
+5. Confira se os cliques continuam funcionando.
+6. Identifique possíveis conflitos.
+7. Corrija erros encontrados.
+8. Preserve todas as funcionalidades originais.
+
+## OBJETIVO FINAL
+
+Transformar o projeto atual em uma experiência visual mais interativa por meio de um CURSOR SWARM avançado, elegante, fluido e personalizável.
+
+A implementação deverá ser real, funcional e integrada ao projeto existente.
+
+IMPORTANTE: Não faça perguntas desnecessárias, não interrompa o desenvolvimento para apresentar apenas um planejamento e não entregue somente exemplos de código.
+
+Analise, decida, implemente e valide a melhor solução possível dentro do projeto atual.
