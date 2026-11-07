@@ -1,1 +1,195 @@
+# CURSOR SWARM — PROMPT UNIVERSAL DE IMPLEMENTAÇÃO E PERSONALIZAÇÃO
 
+Atue como um desenvolvedor frontend sênior, especialista em JavaScript, CSS, animações e integração de bibliotecas.
+
+Sua missão é implementar e aprimorar o **Cursor Swarm** diretamente no projeto atual, utilizando fielmente seu código-fonte original.
+
+## 1. FONTE ORIGINAL
+
+O código-fonte original já está disponível no projeto Websim AI com o nome:
+
+`Cursor-Swarm-Code-1`
+
+Antes de implementar:
+
+- Localize e analise integralmente esse código.
+- Entenda seu funcionamento, configurações, agentes e mecanismos de animação.
+- Utilize a implementação original como base.
+- Não substitua o sistema por partículas, cursores que seguem o mouse ou animações genéricas.
+- Preserve os recursos e comportamentos originais sempre que possível.
+
+## 2. CONCEITO PRINCIPAL
+
+O Cursor Swarm deve apresentar vários cursores independentes, cada um com sua própria identificação, que trabalham na construção visual dos elementos reais do site conforme o usuário percorre a página.
+
+Os agentes devem:
+
+1. Aparecer quando tiverem tarefas.
+2. Identificar os elementos que precisam ser construídos.
+3. Receber tarefas automaticamente.
+4. Movimentar-se até os elementos correspondentes.
+5. Executar as animações de construção.
+6. Finalizar suas tarefas.
+7. Desaparecer suavemente quando terminarem.
+8. Reaparecer quando receberem novas tarefas.
+
+## 3. NOVO RECURSO — CORES ADAPTADAS AO DESIGN DO SITE
+
+Esta é uma das funcionalidades mais importantes desta atualização.
+
+Os cursores devem utilizar automaticamente as cores predominantes da identidade visual do projeto.
+
+**Não utilize uma paleta fixa e genérica para todos os sites.**
+
+O sistema deve analisar a aparência real do projeto e adaptar as cores dos agentes de acordo com o design encontrado.
+
+### Identificação automática das cores
+
+Analise:
+
+- Cores principais da identidade visual.
+- Cores secundárias.
+- Cor de destaque (accent).
+- Cores de botões e elementos interativos.
+- Variáveis CSS (`:root` e custom properties).
+- Gradientes utilizados no projeto.
+- Cores predominantes do tema.
+- Cores definidas em Tailwind, quando aplicável.
+- Temas claro e escuro, quando existentes.
+
+### Aplicação nos cursores
+
+Distribua as cores identificadas entre os agentes de maneira harmoniosa.
+
+Exemplos:
+
+- Site roxo: cursores em diferentes tonalidades de roxo e cores complementares da identidade visual.
+- Site azul: cursores em tonalidades de azul e cores secundárias compatíveis.
+- Site verde: cursores em tonalidades de verde e cores de destaque do projeto.
+- Site vermelho: cursores em tonalidades de vermelho e cores complementares.
+- Site monocromático: cursores com variações de branco, cinza e preto, respeitando o contraste.
+
+Esses exemplos são apenas ilustrativos. A implementação deve detectar as cores reais, não escolher cores com base em categorias predefinidas.
+
+### Regras de identidade visual
+
+- Não imponha roxo, azul ou qualquer outra cor padrão.
+- Não altere a identidade visual do site.
+- Evite cores que não combinam com o projeto.
+- Garanta contraste suficiente para visualizar os cursores.
+- Preserve a distinção visual entre os agentes.
+- Recalcule as cores quando o tema mudar.
+- Se não conseguir identificar cores suficientes, utilize variações da cor principal detectada.
+- Disponibilize opção para definir manualmente as cores, caso o desenvolvedor deseje.
+
+## 4. DESAPARECIMENTO AUTOMÁTICO DOS CURSORES
+
+Corrija o comportamento dos agentes para que nenhum cursor permaneça parado na tela após concluir seu trabalho.
+
+Funcionamento:
+
+1. O agente recebe uma tarefa.
+2. Aparece e se movimenta até o elemento.
+3. Executa a animação de construção.
+4. Finaliza a tarefa.
+5. Desaparece suavemente da tela.
+6. Aguarda uma nova tarefa.
+7. Reaparece quando necessário.
+
+Regras:
+
+- Não esconder agentes enquanto estiverem trabalhando.
+- Não interromper animações.
+- Não remover elementos construídos.
+- Não deixar cursores parados após a conclusão.
+- Não criar instâncias duplicadas desnecessariamente.
+- Quando todos os agentes estiverem ociosos, nenhum cursor deverá permanecer visível.
+
+## 5. TIPOS DE CONSTRUÇÃO
+
+Preserve os mecanismos originais:
+
+- **FRAME:** construção progressiva de contornos, caixas e estruturas.
+- **POP:** revelação de componentes com escala e opacidade.
+- **TYPE:** escrita de textos caractere por caractere.
+- **WORDS:** escrita de textos palavra por palavra.
+- **MEDIA:** revelação progressiva de imagens, vídeos e mídias.
+
+Os agentes devem executar as tarefas utilizando os mecanismos correspondentes, sem substituí-los por efeitos genéricos.
+
+## 6. INTERFACE E PERSONALIZAÇÃO
+
+Disponibilize configurações para:
+
+- Quantidade de cursores.
+- Nomes dos agentes.
+- Cores automáticas ou manuais.
+- Velocidade de movimento.
+- Velocidade de construção.
+- Posição inicial.
+- Exibição de nomes.
+- Exibição do HUD.
+- Guias e indicadores visuais.
+- Construção e desconstrução durante a rolagem.
+- Seletores de elementos ignorados.
+- Seletores de elementos que devem receber o efeito.
+- Ativação e desativação do sistema.
+
+A configuração automática de cores deve ser o comportamento padrão.
+
+## 7. COMPATIBILIDADE UNIVERSAL
+
+A implementação precisa funcionar em diferentes projetos, independentemente de:
+
+- Framework.
+- Linguagem utilizada no frontend.
+- Estrutura HTML.
+- Identidade visual.
+- Quantidade de páginas.
+- Tipo de conteúdo.
+
+Analise o projeto antes de implementar e adapte a integração à arquitetura encontrada.
+
+Não force estruturas específicas e não introduza dependências desnecessárias.
+
+## 8. DESEMPENHO E ACESSIBILIDADE
+
+- Evite cálculos desnecessários.
+- Utilize IntersectionObserver quando apropriado.
+- Otimize eventos de scroll e resize.
+- Evite listeners duplicados.
+- Não bloqueie interações.
+- Preserve a responsividade.
+- Respeite `prefers-reduced-motion`.
+- Garanta contraste adequado.
+- Evite consumo excessivo de CPU e memória.
+
+## 9. TESTES OBRIGATÓRIOS
+
+Após implementar:
+
+1. Verifique se o código original está sendo utilizado.
+2. Teste a distribuição das tarefas.
+3. Teste todos os tipos de construção.
+4. Verifique o desaparecimento dos agentes.
+5. Confirme que nenhum cursor fica parado quando está ocioso.
+6. Teste a identificação automática das cores.
+7. Verifique se as cores combinam com a identidade visual.
+8. Teste mudanças entre temas claro e escuro.
+9. Verifique o funcionamento em dispositivos móveis.
+10. Corrija conflitos e erros encontrados.
+
+## 10. RESULTADO FINAL
+
+O resultado deve ser um Cursor Swarm fiel ao funcionamento original, mas aprimorado com:
+
+- Cores inteligentes adaptadas ao design de cada projeto.
+- Desaparecimento automático dos cursores após concluir tarefas.
+- Reaparecimento automático quando houver novas tarefas.
+- Personalização completa.
+- Integração universal.
+- Desempenho otimizado.
+
+**REGRA ABSOLUTA:** não transforme o Cursor Swarm em um efeito de partículas ou em cursores que perseguem o mouse. Os agentes devem continuar sendo responsáveis pela construção visual dos elementos reais da página.
+
+Ao finalizar, informe os arquivos criados e modificados, os recursos implementados e como personalizar o sistema.
