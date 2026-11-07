@@ -1,0 +1,224 @@
+# CURSOR SWARM
+### Documentação oficial — Guia de utilização
+
+**Versão:** 1.0.0  
+**Idioma:** Português (Brasil)  
+**Tecnologia:** JavaScript, HTML e CSS
+
+---
+
+## 1. O que é o Cursor Swarm?
+
+O **Cursor Swarm** é um sistema de animação visual que utiliza múltiplos cursores independentes para simular a construção dos elementos de um site em tempo real.
+
+Cada cursor funciona como um agente de trabalho. Ele identifica elementos da página, recebe tarefas e executa animações de construção conforme o usuário navega pelo site.
+
+Em vez de simplesmente exibir animações decorativas, o Cursor Swarm cria a sensação de que vários agentes estão trabalhando na montagem da interface.
+
+### O que ele faz?
+
+- Exibe vários cursores simultaneamente.
+- Distribui tarefas entre diferentes agentes.
+- Anima a construção de cards, botões e containers.
+- Escreve textos progressivamente.
+- Revela imagens e outros elementos de mídia.
+- Acompanha a navegação e a rolagem da página.
+- Permite personalizar nomes e cores dos agentes.
+- Adapta automaticamente as cores dos cursores à identidade visual do site.
+- Faz os cursores desaparecerem quando terminam suas tarefas.
+- Permite que os agentes reapareçam quando recebem novas tarefas.
+
+---
+
+## 2. Como funciona?
+
+O funcionamento é dividido em etapas:
+
+1. **Identificação:** o sistema identifica os elementos da página.
+2. **Distribuição:** as tarefas são distribuídas entre os agentes disponíveis.
+3. **Movimentação:** cada cursor se desloca até o elemento correspondente.
+4. **Construção:** o agente executa a animação apropriada.
+5. **Conclusão:** o elemento termina sua animação.
+6. **Desaparecimento:** o cursor desaparece suavemente após concluir o trabalho.
+7. **Continuação:** quando recebe uma nova tarefa, o agente reaparece.
+
+Quando todos os agentes terminam suas tarefas, nenhum cursor permanece parado na tela.
+
+---
+
+## 3. Tipos de construção
+
+O Cursor Swarm possui cinco tipos principais de animação.
+
+| Tipo | Funcionamento |
+|---|---|
+| FRAME | Desenha progressivamente estruturas, contornos e caixas. |
+| POP | Revela componentes com efeitos de escala e opacidade. |
+| TYPE | Escreve textos caractere por caractere. |
+| WORDS | Escreve textos palavra por palavra. |
+| MEDIA | Revela imagens, vídeos e outros elementos de mídia. |
+
+Cada tipo é utilizado conforme a categoria do elemento identificado.
+
+---
+
+## 4. Cores inteligentes
+
+Um dos recursos do Cursor Swarm é a adaptação automática das cores dos agentes.
+
+O sistema analisa a identidade visual do projeto e procura identificar:
+
+- Cores principais.
+- Cores secundárias.
+- Cores de destaque.
+- Variáveis CSS.
+- Gradientes.
+- Cores de botões e componentes.
+- Características dos temas claro e escuro.
+
+Depois, distribui cores harmoniosas entre os agentes.
+
+**Exemplo:**
+
+- Site roxo: cursores com tonalidades de roxo e cores complementares.
+- Site azul: cursores com tonalidades de azul.
+- Site verde: cursores com tonalidades de verde.
+- Site monocromático: cursores em tons de branco, cinza e preto.
+
+Também é possível configurar cores manualmente, caso essa opção esteja habilitada na implementação.
+
+---
+
+## 5. Como utilizar no seu projeto?
+
+### Passo 1 — Adicione o código
+
+Tenha o arquivo JavaScript original do Cursor Swarm disponível no projeto.
+
+Neste projeto Websim, o código-fonte de referência está identificado como:
+
+`Cursor-Swarm-Code-1`
+
+Preserve o arquivo original e utilize a integração compatível com a estrutura do seu projeto.
+
+### Passo 2 — Faça a integração
+
+Solicite ao seu agente de IA que analise o código original e integre o Cursor Swarm ao site.
+
+A implementação deve respeitar:
+- A estrutura existente.
+- O framework utilizado.
+- Os estilos originais.
+- Os componentes existentes.
+- A identidade visual.
+
+### Passo 3 — Configure
+
+Personalize os agentes conforme necessário:
+
+- Quantidade de cursores.
+- Nomes.
+- Cores.
+- Velocidade.
+- Indicadores visuais.
+- HUD.
+- Elementos ignorados.
+- Comportamento durante a rolagem.
+
+### Passo 4 — Teste
+
+Abra o site e percorra suas seções.
+
+Observe os agentes identificando elementos, executando tarefas e desaparecendo após concluir o trabalho.
+
+---
+
+## 6. Personalização
+
+As opções disponíveis dependem da configuração utilizada na integração.
+
+| Configuração | Descrição |
+|---|---|
+| Quantidade | Número de agentes disponíveis. |
+| Nomes | Identificação individual dos cursores. |
+| Cores | Paleta automática ou manual. |
+| Velocidade | Ritmo das animações e movimentações. |
+| HUD | Painel de informações dos agentes. |
+| Guias | Indicadores visuais de construção. |
+| Deconstruction | Comportamento de desconstrução ao voltar na página, se habilitado. |
+| Ignore | Elementos que não devem receber o efeito. |
+| Targets | Elementos específicos que devem receber o efeito. |
+
+---
+
+## 7. Compatibilidade
+
+O Cursor Swarm foi concebido para ser integrado a diferentes projetos web.
+
+Pode ser adaptado a:
+- Sites institucionais.
+- Landing pages.
+- Portfólios.
+- Dashboards.
+- Sistemas web.
+- Lojas virtuais.
+- Aplicações frontend.
+
+A compatibilidade depende da estrutura do projeto e da integração realizada.
+
+---
+
+## 8. Desempenho
+
+Para uma experiência adequada:
+
+- Evite utilizar agentes em excesso.
+- Prefira animações suaves.
+- Não aplique o efeito em elementos desnecessários.
+- Preserve a responsividade.
+- Respeite as configurações de movimento reduzido.
+- Evite executar múltiplas instâncias da biblioteca.
+
+O conteúdo e as funcionalidades do site devem continuar funcionando normalmente, mesmo se o efeito estiver desativado.
+
+---
+
+## 9. Perguntas frequentes
+
+**Os cursores seguem o mouse do visitante?**
+
+Não. Eles são agentes independentes que se movimentam para executar tarefas de construção dos elementos.
+
+**Os cursores desaparecem depois de trabalhar?**
+
+Sim. Após concluir uma tarefa, o agente desaparece suavemente e pode reaparecer quando recebe outra tarefa.
+
+**As cores são fixas?**
+
+Não necessariamente. O sistema pode identificar as cores do projeto e adaptar a aparência dos agentes automaticamente.
+
+**Posso utilizar em qualquer site?**
+
+A proposta é ser universal, mas cada projeto pode exigir ajustes de integração e compatibilidade.
+
+**O efeito modifica o conteúdo do site?**
+
+Não deve modificar o conteúdo original. Ele atua na apresentação visual dos elementos.
+
+**Posso desativar o efeito?**
+
+Sim, desde que a integração disponibilize o controle de ativação.
+
+---
+
+## 10. Objetivo do projeto
+
+O Cursor Swarm foi desenvolvido para transformar a experiência de navegação em algo mais interativo, tecnológico e visualmente interessante.
+
+Sua proposta é mostrar uma equipe de agentes digitais trabalhando na construção visual da interface, acompanhando o usuário durante a navegação.
+
+**CURSOR SWARM — Múltiplos agentes. Uma interface em construção.**
+
+---
+
+<sub>Documentação em Português Brasileiro. Consulte o código-fonte original para conhecer os detalhes técnicos e as configurações efetivamente disponíveis na versão instalada.</sub>
